@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import banner from './images/header.jpeg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main_container">
+      <div className="header">
+        <img src={banner} />
+        <div classname="header_text">
+          <div className="title">Lenhart Chiropractic</div>
+          <div className="subtitle">
+            Middlefield, OH - (440) 632-1112
+          </div>
+          <div className="subtitle">
+            Hermitage, PA - (724) 347-7727
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
