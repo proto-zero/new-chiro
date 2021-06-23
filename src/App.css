@@ -16,7 +16,7 @@
   height: 20vw;
   min-height: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .header img {
@@ -36,7 +36,28 @@
   color: #E8EEF1;
   font-size: 2vw;
 }
-
-@media (min-width: 320px) {
-
+.link_bar {
+  width: 98%;
+  height: 2vw;
+  background: #057DCD;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.link {
+  font-size: 2vw;
+  width: 25%;
+  text-align: center;
+  color: #E8EEF1;
+}
+.link:hover {
+  background: #E8EEF1;
+  color: #057DCD;
+}
+.main {
+  display: flex;
+}
+.article {
+  background: #057DCD;
+  color: #E8EEF1;
 }
