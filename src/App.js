@@ -17,6 +17,15 @@ function App() {
           </div>
         </div>
       </div>
+      <Link />
+    </div>
+  );
+}
+
+function Link() {
+  return (
+    <div className="link_bar">
+      test
     </div>
   );
 }

@@ -18,10 +18,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 .header img {
-  height: 98%;
+  height: 100%;
 }
 .header_text {
   display: flex;
@@ -36,4 +35,8 @@
 .subtitle {
   color: #E8EEF1;
   font-size: 2vw;
+}
+
+@media (min-width: 320px) {
+
 }
