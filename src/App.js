@@ -44,8 +44,8 @@ const Link = () => {
   return (
     <div className="link_bar">
       <div class="link">Home</div>
-      <div class="link">Middlefield, OH</div>
-      <div class="link">Hermitage, PA</div>
+      <div class="link">Middlefield - OH</div>
+      <div class="link">Hermitage - PA</div>
       <div class="link">Videos</div>
     </div>
   )
