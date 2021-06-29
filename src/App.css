@@ -12,7 +12,6 @@
 .header {
   background: #057DCD;
   width: 98%;
-  height: 15vw;
   min-height: 150px;
   display: flex;
   justify-content: space-evenly;
@@ -191,6 +190,12 @@
   .toptext {
     width: 20vw;
     font-size: 2vw;
+    text-decoration: none;
+  }
+  .bottomtext {
+    width: 20vw;
+    font-size: 1vw;
+    margin-bottom: 0;
   }
 }
 
