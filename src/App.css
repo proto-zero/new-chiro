@@ -55,10 +55,9 @@
   color: #057DCD;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
-.center {
+.main {
   width: 98%;
   display: flex;
-  justify-content: space-between;
 }
 .article_container {
   width: 72%;
@@ -76,12 +75,9 @@
   font-size: 1.5vw;
 }
 .sidebar_container {
-  width: 25%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
 .sidebar_container img {
   width: 50%;
@@ -94,26 +90,21 @@
 }
 .footer {
   width: 98%;
-  height: 12vw;
+  padding: 5px;
   margin-top: 30px;
   background: #057DCD;
   display: flex;
-  justify-content: space-around;
 }
 .toptext {
-  width: 20vw;
   background: #E8EEF1;
   color: #057DCD;
   text-align: center;
   padding: 2px;
-  font-size: 2vw;
   margin-bottom: 5px;
 }
 .bottomtext {
-  width: 20vw;
   color: #E8EEF1;
   text-align: center;
-  font-size: 1vw;
 }
 .toptext:hover {
   background: #057DCD;
@@ -144,9 +135,6 @@
   }
   .sidebar_container {
     width: 98%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
     margin-top: 30px;
   }
   .lede {
@@ -154,11 +142,18 @@
   }
   .footer {
     width: 98%;
-    height: 6vw;
-    margin-top: 30px;
-    background: #057DCD;
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toptext {
+    width: 80vw;
+    font-size: 6vw;
+    text-decoration: underline;
+  }
+  .bottomtext {
+    width: 80vw;
+    font-size: 4vw;
+    margin-bottom: 10px;
   }
 }
 
@@ -179,23 +174,23 @@
   .main {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
   .sidebar_container {
     width: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    margin-top: 0;
   }
   .lede {
     font-size: 2vw;
   }
   .footer {
     width: 98%;
-    height: 6vw;
-    margin-top: 30px;
-    background: #057DCD;
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+  }
+  .toptext {
+    width: 20vw;
+    font-size: 2vw;
   }
 }
 

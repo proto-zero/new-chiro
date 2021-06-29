@@ -10,7 +10,7 @@ class App extends React.Component {
       <div className="main_container">
         <Header />
         <Link />
-        <div className="center">
+        <div className="main">
           <Article />
           <Sidebar />
         </div>
