@@ -25,8 +25,10 @@ const Header = () => {
     <div className="header">
       <img src={banner}
            alt="Headshot of Doctor L. John Lenhart" />
-      <div classname="header_text">
-        <div className="title">Lenhart Chiropractic</div>
+      <div className="header_text">
+        <div className="title">
+          Lenhart Chiropractic
+        </div>
         <div className="subtitle">
           Middlefield, OH - (440) 632-1112
         </div>
