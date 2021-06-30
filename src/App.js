@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="main_container">
         <Header />
-        <Link />
+        <Link_bar />
         <div className="main">
           <Article />
           <Sidebar />
@@ -40,16 +40,26 @@ const Header = () => {
   );
 }
 
-const Link = () => {
+const Link_bar = () => {
   return (
     <div className="link_bar">
-      <div class="link">Home</div>
-      <div class="link">Middlefield - OH</div>
-      <div class="link">Hermitage - PA</div>
-      <div class="link">Videos</div>
+      <Link value={"Home"} />
+      <Link value={"Middlefield - OH"} />
+      <Link value={"Hermitage - PA"} />
+      <Link value={"Videos"} />
     </div>
   )
 };
+
+class Link extends React.Component {
+  render () {
+    return (
+      <div class="link">
+        {this.props.value}
+      </div>
+    );
+  }
+}
 
 const Sidebar = () => {
   return (
@@ -69,25 +79,19 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footnote">
-        <div className="toptext">
-          Meet The Doctor
-        </div>
+        <Link value={"Meet The Doctor"} />
         <div className="bottomtext">
           Over 30 years of experience
         </div>
       </div>
       <div className="footnote">
-        <div className="toptext">
-          Treatment Programs
-        </div>
+        <Link value={"Treatment Programs"} />
         <div className="bottomtext">
           Evidence based services for your ailments
         </div>
       </div>
       <div className="footnote">
-        <div className="toptext">
-          First Visit
-        </div>
+        <Link value={"First Visit"} />
         <div className="bottomtext">
           First visit information and patient forms
         </div>
@@ -96,16 +100,19 @@ const Footer = () => {
   )
 };
 
-
 class Article extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: "test",
+    };
+  }
   render() {
     return (
       <div className="article_container">
-        <div className="article">
-          Lenhart Chiropractic Clinic provides a broad spectrum of natural health care options to our patients. For many conditions research is proving that Chiropractic care is an effective alternative to drugs and surgery. While many know Chiropractic is successful for conditions such as back and neck pain, research is showing that Chiropractic care has a tremendous positive effect on the whole body.
-        </div>
-        <div className="article">
-          In addition to traditional Chiropractic care, Lenhart Chiropractic Clinic offers Meridian Therapy, Massage Therapy (in the Middlefield Office) Nutritional Counseling, Wellness Care and Musculoskeletal rehabilitation.
+        <div className="article"
+              onClick={() => this.setState({value: "X"})}>
+          {this.state.value}
         </div>
       </div>
     );
