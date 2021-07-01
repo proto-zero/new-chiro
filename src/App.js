@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="main_container">
         <Header />
-        <Link_bar />
+        <LinkBar />
         <div className="main">
           <Article />
           <Sidebar />
@@ -40,7 +40,25 @@ const Header = () => {
   );
 }
 
-const Link_bar = () => {
+class MainText extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: "test",
+    };
+  }
+  render() {
+    return (
+      <div>
+        Fill with linkbar, article, sidebar, and footer.
+        Sidebar can be separately defined, the rest are in here.
+      </div>
+    );
+  }
+}
+
+
+const LinkBar = () => {
   return (
     <div className="link_bar">
       <Link value={"Home"} />
@@ -101,18 +119,11 @@ const Footer = () => {
 };
 
 class Article extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: "test",
-    };
-  }
   render() {
     return (
       <div className="article_container">
-        <div className="article"
-              onClick={() => this.setState({value: "X"})}>
-          {this.state.value}
+        <div className="article">
+          Work on MainText
         </div>
       </div>
     );

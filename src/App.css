@@ -35,6 +35,12 @@
   color: #E8EEF1;
   font-size: 4vw;
 }
+.maintext {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .link_bar {
   width: 98%;
   background: #057DCD;
@@ -64,11 +70,31 @@
   background: #057DCD;
 }
 .article {
-  width: 50%;
+  width: 60%;
   margin: 10px;
   color: #E8EEF1;
   text-shadow: 2px 2px rgb(0,0,0,.4);
+  display: flex;
+  flex-direction: column;
+}
+.article_title {
+  font-size: 3vw;
+}
+.article_subtitle {
+  font-size: 2vw;
+  margin-bottom: 5px;
+}
+.article_body {
   font-size: 1.5vw;
+  margin: 5px;
+}
+.hours_header {
+  width: 60%;
+  font-size: 2vw;
+  margin: 5px;
+  background: #43B0F1;
+  color: #E8EEF1;
+  text-align: center;
 }
 .sidebar_container {
   display: flex;
