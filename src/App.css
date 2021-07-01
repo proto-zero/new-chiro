@@ -133,24 +133,15 @@ iframe {
   color: #E8EEF1;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
-/* .toptext {
-  background: #E8EEF1;
-  color: #057DCD;
-  text-align: center;
-  padding: 2px;
-  margin-bottom: 5px;
-} */
 .bottomtext {
   color: #E8EEF1;
   text-align: center;
 }
-/* .toptext:hover {
-  background: #057DCD;
-  color: #E8EEF1;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-} */
 .meet_hours img {
   width: 23vw;
+}
+a {
+  color: #E8EEF1;
 }
 
 /* /////////////////////////////////////////////// */
