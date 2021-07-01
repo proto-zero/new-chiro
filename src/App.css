@@ -96,6 +96,10 @@
   color: #E8EEF1;
   text-align: center;
 }
+iframe {
+  width: 98%;
+  height: 30vw;
+}
 .sidebar_container {
   display: flex;
   flex-direction: column;
@@ -145,6 +149,9 @@
   color: #E8EEF1;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 } */
+.meet_hours img {
+  width: 23vw;
+}
 
 /* /////////////////////////////////////////////// */
 

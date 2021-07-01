@@ -76,7 +76,7 @@ class MainText extends React.Component {
     let meet_title = <div>Meet The Doctor</div>;
     let meet_subtitle = <div>You can count on Lenhart Chiropractic Clinic for quality services and competitive rates. Our friendly staff works one-on-one with you to meet your needs. We primarily use decompression to help relax your muscles and spine, before performing adjustments. Our clinic accepts most insurance plans, and handles all billing paperwork saving you time and frustration. If insurance is an issue, we do provide scheduled payments, so you can still receive the care you need.</div>;
     let meet_header = <div>Dr. John Lenhart, D.C.</div>;
-    let meet_hours = <div><img src={portrait} /><div><strong>Dr. John Lenhart, D.C.</strong> graduated from Palmer College of Chiropractic in 1985 and has been in continuous practice for 24 years. As the former Research Director for Ohio State Chiropractic Association, Dr. Lenhart has published numerous articles in professional journals on topics such as Post Traumatic neck injuries, Raynaud’s Phenomenon and The Successful Treatment of Migraine Headache with Chiropractic Care.</div><br /><div>Having studied Acupuncture and Meridian Therapy extensively, Dr. Lenhart was awarded Diplomate status by the International Academy of Medical Acupuncture in 2008. He is trained in laser application of Meridian Therapy as well as Electromeridian Therapy.</div></div>;
+    let meet_hours = <div className="meet_hours"><img src={portrait} /><div><strong>Dr. John Lenhart, D.C.</strong> graduated from Palmer College of Chiropractic in 1985 and has been in continuous practice for 24 years. As the former Research Director for Ohio State Chiropractic Association, Dr. Lenhart has published numerous articles in professional journals on topics such as Post Traumatic neck injuries, Raynaud’s Phenomenon and The Successful Treatment of Migraine Headache with Chiropractic Care.</div><br /><div>Having studied Acupuncture and Meridian Therapy extensively, Dr. Lenhart was awarded Diplomate status by the International Academy of Medical Acupuncture in 2008. He is trained in laser application of Meridian Therapy as well as Electromeridian Therapy.</div></div>;
 
     return (
       <div className="maintext">
@@ -142,15 +142,7 @@ class MainText extends React.Component {
               </div>
             </div>
           </div>
-          <div className="sidebar_container">
-            <div className="lede">
-              Affiliations
-            </div>
-            <img src={pca}
-                 alt="Logo for the Pennsylvania Chiropractic Association" />
-            <img src={aca}
-                 alt="Logo for the American Chiropractic Association" />
-          </div>
+          <Sidebar />
         </div>
         <div className="footer">
           <div className="footnote">
@@ -189,5 +181,19 @@ class MainText extends React.Component {
     );
   }
 }
+
+const Sidebar = () => {
+  return (
+    <div className="sidebar_container">
+      <div className="lede">
+        Affiliations
+      </div>
+      <img src={pca}
+           alt="Logo for the Pennsylvania Chiropractic Association" />
+      <img src={aca}
+           alt="Logo for the American Chiropractic Association" />
+    </div>
+  )
+};
 
 export default AppTest;
