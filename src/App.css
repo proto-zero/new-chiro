@@ -102,13 +102,11 @@ iframe {
   width: 50%;
 }
 .lede {
-  /* width: 100%; */
   background: #057DCD;
   color: #E8EEF1;
   text-align: center;
 }
 .footer {
-  /* width: 98%; */
   margin-top: 30px;
   background: #057DCD;
   display: flex;
@@ -259,6 +257,7 @@ a {
   .footer {
     width: 98%;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-around;
   }
   .footer .link {
@@ -269,6 +268,5 @@ a {
   .bottomtext {
     width: 20vw;
     font-size: 1.5vw;
-    margin-bottom: 0;
   }
 }
