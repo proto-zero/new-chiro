@@ -28,10 +28,12 @@
   text-shadow: 2px 2px grey;
   text-decoration: underline;
   text-align: center;
+  font-family: 'Bona Nova', serif;
 }
 .subtitle {
   color: #E8EEF1;
   font-size: 4vw;
+  font-family: 'Bona Nova', serif;
 }
 .maintext {
   width: 100%;
@@ -48,6 +50,7 @@
 .link {
   text-align: center;
   color: #E8EEF1;
+  font-family: 'Roboto Slab', serif;
 }
 .link:hover {
   background: #E8EEF1;
@@ -74,12 +77,16 @@
 .article_title {
   text-decoration: underline;
   margin-bottom: 5px;
+  font-family: 'Bona Nova', serif;
+  font-style: bold;
 }
 .article_subtitle {
   margin-bottom: 5px;
+  font-family: 'Bona Nova', serif;
 }
 .article_body {
   margin: 5px;
+  font-family: "Arial";
 }
 .hours_header {
   width: 60%;
@@ -88,6 +95,7 @@
   background: #43B0F1;
   color: #E8EEF1;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 iframe {
   width: 98%;
@@ -105,6 +113,7 @@ iframe {
   background: #057DCD;
   color: #E8EEF1;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 .footer {
   margin-top: 30px;
@@ -126,6 +135,7 @@ iframe {
 .bottomtext {
   color: #E8EEF1;
   text-align: center;
+  font-family: "Arial";
 }
 .meet_hours img {
   width: 23vw;
@@ -144,7 +154,7 @@ a {
     width: 90%;
   }
   .title {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   .subtitle {
     font-size: 4vw;
