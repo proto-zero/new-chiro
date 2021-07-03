@@ -47,8 +47,14 @@ class MainText extends React.Component {
       subtitle: home_subtitle,
       body: home_body,
       header: null,
-      hours: null
+      hours: null,
     };
+  }
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   }
   render() {
     let home_title = <div>Lenhart Chiropractic Clinic</div>
@@ -152,13 +158,16 @@ class MainText extends React.Component {
         <div className="footer">
           <div className="footnote">
             <div className="link"
-                 onClick={() => this.setState({
-                   title: meet_title,
-                   subtitle: meet_subtitle,
-                   body: null,
-                   header: meet_header,
-                   hours: meet_hours
-                   })}>
+                 onClick={() => {
+                   this.setState({
+                     title: meet_title,
+                     subtitle: meet_subtitle,
+                     body: null,
+                     header: meet_header,
+                     hours: meet_hours
+                   });
+                   this.scrollToTop();
+                 }}>
               Meet The Doctor
             </div>
             <div className="bottomtext">
@@ -167,13 +176,16 @@ class MainText extends React.Component {
           </div>
           <div className="footnote">
             <div className="link"
-                 onClick={() => this.setState({
-                   title: treat_title,
-                   subtitle: treat_subtitle,
-                   body: treat_body,
-                   header: null,
-                   hours: null
-                   })}>
+                 onClick={() => {
+                   this.setState({
+                     title: treat_title,
+                     subtitle: treat_subtitle,
+                     body: treat_body,
+                     header: null,
+                     hours: null
+                   });
+                   this.scrollToTop();
+                 }}>
               Treatment Programs
             </div>
             <div className="bottomtext">
@@ -182,13 +194,16 @@ class MainText extends React.Component {
           </div>
           <div className="footnote">
             <div className="link"
-                 onClick={() => this.setState({
-                   title: visit_title,
-                   subtitle: null,
-                   body: visit_body,
-                   header: null,
-                   hours: null
-                   })}>
+                 onClick={() => {
+                   this.setState({
+                     title: visit_title,
+                     subtitle: null,
+                     body: visit_body,
+                     header: null,
+                     hours: null
+                   });
+                   this.scrollToTop();
+                 }}>
               First Visit
             </div>
             <div className="bottomtext">
