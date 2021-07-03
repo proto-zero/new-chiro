@@ -69,20 +69,21 @@
 }
 .article {
   margin: 10px;
-  color: #E8EEF1;
-  text-shadow: 2px 2px rgb(0,0,0,.4);
+  /* color: #E8EEF1; */
+  color: #FEFEFE;
   display: flex;
   flex-direction: column;
 }
 .article_title {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-bottom: 5px;
-  font-family: 'Bona Nova', serif;
+  font-family: "Arial";
   font-style: bold;
+  text-shadow: 2px 2px rgb(0,0,0,.4);
 }
 .article_subtitle {
   margin-bottom: 5px;
-  font-family: 'Bona Nova', serif;
+  font-family: "Arial";
 }
 .article_body {
   margin: 5px;
@@ -96,6 +97,7 @@
   color: #E8EEF1;
   text-align: center;
   font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px rgb(0,0,0,.4);
 }
 .sidebar_container {
   display: flex;
