@@ -92,7 +92,7 @@ class MainText extends React.Component {
     return (
       <div className="maintext">
         <div className="link_bar">
-          <div class="link"
+          <div className="link"
                onClick={() => this.setState({
                  title: home_title,
                  subtitle: home_subtitle,
@@ -102,7 +102,7 @@ class MainText extends React.Component {
                  })}>
             Home
           </div>
-          <div class="link"
+          <div className="link"
                onClick={() => this.setState({
                  title: oh_title,
                  subtitle: oh_subtitle,
@@ -112,7 +112,7 @@ class MainText extends React.Component {
                  })} >
             Middlefield - OH
           </div>
-          <div class="link"
+          <div className="link"
                onClick={() => this.setState({
                  title: pa_title,
                  subtitle: pa_subtitle,
@@ -122,7 +122,7 @@ class MainText extends React.Component {
                  })}>
             Hermitage - PA
           </div>
-          <div class="link"
+          <div className="link"
                onClick={() => this.setState({
                  title: vid_title,
                  subtitle: vid_subtitle,
