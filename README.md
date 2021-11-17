@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Lenhart Chiropractic Clinic (New)
+
+## Notes
+
+Lenhart Chiropractic was originally built in WordPress. This is an attempt to redesign the site from the ground up using React. It is now essentially a single page site with several buttons that display new information in the place of traveling to new pages.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
