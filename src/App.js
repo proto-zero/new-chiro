@@ -66,8 +66,8 @@ class MainText extends React.Component {
     let header = <div>Business Hours</div>
     let oh_hours = <div><div>Mon: 9am - 6:30pm</div><div>Tues: Closed</div><div>Wed: 9am - 6:30pm</div><div>Thu: Closed</div><div>Fri: 9am - 6:30pm</div><div>Sat: 9am - 12 Noon</div><div>Sun: Closed</div></div>;
     let pa_title = <div>Hermitage, PA</div>;
-    let pa_subtitle = <div><div><em>Mistretta Jones Chiropractic Building</em></div><div>175 N Buhl Farm Dr</div><div>Hermitage, PA 16148</div><div>(724) 347-7727</div></div>;
-    let pa_body = <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.3628698458533!2d-80.4718907!3d41.23565299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8833c068adebdfed%3A0xa7e05bfc9aa68ca4!2s175%20N%20Buhl%20Farm%20Dr%2C%20Hermitage%2C%20PA%2016148!5e0!3m2!1sen!2sus!4v1621618261342!5m2!1sen!2sus" title="map" width="98%" height="50%" style={{border:0}} allowfullscreen="" loading="lazy"></iframe></div>;
+    let pa_subtitle = <div><div><em></em></div><div>40 S Walnut Street</div><div>Sharpsville, PA 16150</div><div>(724) 347-7727</div></div>;
+    let pa_body = <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23992.9629998352!2d-80.4754071799393!3d41.26271487718487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8833c0949546bba3%3A0xf84a139eba208daf!2s40%20S%20Walnut%20St%2C%20Sharpsville%2C%20PA%2016150!5e0!3m2!1sen!2sus!4v1705433339217!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>;
     let pa_hours = <div><div>Mon: Closed</div><div>Tues: 9am - 5pm</div><div>Wed: Closed</div><div>Thu: 9am - 5pm</div><div>Fri: Closed</div><div>Sat: Closed</div><div>Sun: Closed</div></div>;
     let vid_title = <div>Videos</div>;
     let vid_subtitle = <div>Please enjoy our videos below</div>;
