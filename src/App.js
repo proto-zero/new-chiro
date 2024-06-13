@@ -71,7 +71,10 @@ class MainText extends React.Component {
     let pa_hours = <div><div>Mon: Closed</div><div>Tues: 9am - 5pm</div><div>Wed: Closed</div><div>Thu: 9am - 5pm</div><div>Fri: Closed</div><div>Sat: Closed</div><div>Sun: Closed</div></div>;
     let vid_title = <div>Videos</div>;
     let vid_subtitle = <div>Please enjoy our videos below</div>;
-    let vid_body = <div><div>General Commercial</div>
+    let vid_body = <div>
+    <div>Fifteen Minute Relaxation</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8E70nOj6tlI?si=zhq9w_cXb7aHwc0V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br /><br />
+    <div>General Commercial</div>
     <iframe width="100%" height="300px" src="https://www.youtube.com/embed/bDR5IeHJsiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br />
     <div>Wellness Program</div>
     <iframe width="100%" height="300px" src="https://www.youtube.com/embed/uZAHS2YWJuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br />
